@@ -47,6 +47,21 @@
 <pre><code>cd /afs/cs/academic/class/15462-f15-users/mds1/asst5
 </code></pre>
 
+<p>From there, to build the code, run the following command</p>
+
+<pre><code>mkdir build &amp;&amp; cd build &amp;&amp; cmake ../src &amp;&amp; make
+</code></pre>
+
+<p>This will build the code and create an executable called drawsvg. To run this, you need to supply the executable with either a .svg file or a directory containing one or more svg files. From the build directory, all of the .svg fractal files I have created exist in</p>
+
+<pre><code>../svg/ifs/
+</code></pre>
+
+<p>So to load the first 9 fractals that I have created into the 9 tabs of the viewer, run the following command from the build directory.</p>
+
+<pre><code>./drawsvg ../svg/ifs/
+</code></pre>
+
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/Minhaul/15462-asst5">15462 Assignment 5</a> is maintained by <a href="https://github.com/Minhaul">Minhaul</a>.</span>
 
